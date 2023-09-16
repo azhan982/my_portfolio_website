@@ -1,0 +1,215 @@
+  @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Lato&family=Pacifico&family=REM:wght@300&family=Roboto&family=Roboto+Mono&family=Source+Code+Pro&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+font-family: 'Source Code Pro', monospace;
+}
+.container{
+
+    display: flex;
+}
+.sidebar{
+    background-color: rgb(133, 133, 133);
+    width: 200px;
+    height: 100vh;
+    padding: 22px;
+    
+}
+
+li{
+    list-style: none;
+    padding: 20px 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.topbar{
+
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.topbx{
+    background-color: yellow;
+    width: 80vw;
+    margin-top: 40px;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 25px;
+    flex-wrap: wrap;
+}
+.intro{
+    background-color: pink;
+}
+.mypic{
+    background-color: green;
+    height:70%;
+    margin: 15px;
+   
+}
+.name{
+
+font-family: 'Roboto', sans-serif;
+font-size: 40px;
+font-weight: bold;
+
+}
+.wel{
+    font-size: 45px; 
+}
+.about{
+    font-size: 25px; 
+}
+.topbx button{
+    padding:7px;
+    background-color: rgb(68, 140, 204);
+    color: white;
+    border: 1px solid rgb(68, 140, 204);
+    cursor: pointer;
+    border-radius: 15px;
+    margin: 10px 5px 0px 0px;
+    font-weight: bold;
+}
+
+.topbx button:hover{
+    background-color:  white;
+    color: rgb(68, 140, 204);
+    transition: 0.15s ease-in;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+.contactform{
+    width: 90vw;
+padding: 15px;
+       
+}
+
+.contactform h1{
+    padding: 20px 0;
+   
+}
+
+.yn{
+    padding: 12px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.yn input{
+    width: 305px;
+    border-radius: 10px;
+}
+
+.contactform p {
+    font-size: 10px;
+    padding: 5px 0; 
+    color: rgb(0, 0, 151);
+
+}
+.tbx{
+    padding-bottom: 8px;
+}
+
+
+.smbut{
+    padding:5px;
+    background-color: rgb(68, 140, 204);
+    color: white;
+    border: 1px solid rgb(68, 140, 204);
+    cursor: pointer;
+    border-radius: 15px;
+    margin: 10px 5px 0px 0px;
+    font-weight: bold;
+
+}
+/* @media screen and (max-width : 1060px) {
+    *{
+        background-color: red;
+    }
+    .sidebar{
+        position: absolute;
+        transform:translate(-202px, 0px);
+    }
+} */
+
+.marg{
+    margin: 7px;
+}
+.main{
+    background-color: rgba(255, 255, 0, 0.39);
+    margin: auto;
+    margin-top: 50px;
+    width: 1249px;
+  padding: 15px;
+  border-radius: 20px;
+  
+}
+
+.bor{
+    width: 150px;
+    height: 12px;
+    border: 1px black solid;
+}
+.tbl td{
+    width: 120px;
+   
+}
+.filhtml{
+    height: 100%;
+    width: 65%;
+    background-color: green;
+}
+.filreact{
+    height: 100%;
+    width: 50%;
+    background-color: green;
+}
+.filcss{
+    height: 100%;
+    width: 60%;
+    background-color: green;
+}
+.filjava{
+    height: 100%;
+    width: 55%;
+    background-color: green;
+}
+.filpth{
+    height: 100%;
+    width: 40%;
+    background-color: green;
+}
+.filsql{
+    height: 100%;
+    width: 45%;
+    background-color: green;
+}
+.tbl h3{
+    margin-bottom: 10px;
+}
+.tbl{
+    font-size: 25px;
+    margin: 15px;
+}
+.work td{
+    width: 120px;
+    text-align: center;
+    height: 44px;
+   
+}
+.work th{
+    height: 50px;
+}
+.work{
+    margin: 15px;
+}
